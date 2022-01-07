@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-mysql-jdbc-driver</artifactId>
-    <version>1.0.1</version>
+    <version>8.0.20</version>
 
     <name>MySQL JDBC Driver</name>
     <description>MySQL JDBC Driver for eXist-db</description>
@@ -64,7 +64,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.27</version>
+            <version>${project.version}</version>
         </dependency>
 
         <!-- test dependencies -->
