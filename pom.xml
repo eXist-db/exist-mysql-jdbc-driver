@@ -13,7 +13,7 @@
 
     <groupId>org.exist-db</groupId>
     <artifactId>exist-mysql-jdbc-driver</artifactId>
-    <version>8.0.28</version>
+    <version>8.0.29</version>
 
     <name>MySQL JDBC Driver</name>
     <description>MySQL JDBC Driver for eXist-db</description>
