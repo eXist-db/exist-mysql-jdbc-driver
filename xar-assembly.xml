@@ -2,14 +2,14 @@
 <package xmlns="http://expath.org/ns/pkg" name="${package-name}" abbrev="${package-abbrev}" version="${project.version}"
     spec="1.0">
     <title>${package-title}</title>
-    <author id="my-organisation">eXist-db</author>
-    <website>${project.url}</website>
+    <author id="eXist-db">${project.organization.name}</author>
+    <description>${project.description}</description>
+    <website>${project.scm.url}</website>
     <license>GNU Lesser General Public License, version 2.1</license>
     <copyright>true</copyright>
 
     <!-- should be either "application" or "library" -->
     <type>library</type>
-    <!-- type>library</type -->
 
     <status>stable</status>
 
