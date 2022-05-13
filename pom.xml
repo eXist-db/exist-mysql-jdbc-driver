@@ -18,10 +18,10 @@
     <name>MySQL JDBC Driver</name>
     <description>MySQL JDBC Driver for eXist-db</description>
     <url>https://exist-db.org/exist-db/jdbc/mysql</url>
-
+    
     <organization>
         <name>eXist-db</name>
-        <url>http://exist-db.org</url>
+        <url>https://www.github.com/eXist-db/exist-mysql-jdbc-driver</url>
     </organization>
 
     <licenses>

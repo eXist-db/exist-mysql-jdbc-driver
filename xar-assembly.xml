@@ -4,7 +4,7 @@
     <title>${package-title}</title>
     <author id="eXist-db">${project.organization.name}</author>
     <description>${project.description}</description>
-    <website>${project.scm.url}</website>
+    <website>${project.organization.url}</website>
     <license>GNU Lesser General Public License, version 2.1</license>
     <copyright>true</copyright>
 
