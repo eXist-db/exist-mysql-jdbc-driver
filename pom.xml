@@ -18,7 +18,7 @@
     <name>MySQL JDBC Driver</name>
     <description>MySQL JDBC Driver for eXist-db</description>
     <url>https://exist-db.org/exist-db/jdbc/mysql</url>
-    
+
     <organization>
         <name>eXist-db</name>
         <url>https://www.github.com/eXist-db/exist-mysql-jdbc-driver</url>
@@ -157,7 +157,7 @@
                         </goals>
                         <configuration>
                             <descriptor>xar-assembly.xml</descriptor>
-                            <finalName>${package-final-name}</finalName>
+                            <finalName>${package-final-name}-${build-commit-abbrev}</finalName>
                         </configuration>
                     </execution>
                 </executions>
